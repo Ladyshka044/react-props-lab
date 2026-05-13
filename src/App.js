@@ -1,17 +1,11 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRoutes from "./Routes";
-import Navbar from "./components/Navbar";
-import CssBaseline from '@mui/material/CssBaseline'; // Якщо використовуєш MUI
+import React from 'react';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
-    <BrowserRouter>
-      <CssBaseline />
-      <Navbar />
-      <div style={{ padding: '0 20px' }}>
-        <AppRoutes />
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Gallery />
+    </div>
   );
 }
 
