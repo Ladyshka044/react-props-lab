@@ -1,0 +1,7 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap; /* щоб картки переносилися на новий рядок, якщо не влазять */
+  justify-content: center; /* по центру */
+  gap: 20px; /* відстань між картками */
+  padding: 20px;
+}
